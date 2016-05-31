@@ -30,7 +30,7 @@ before_script:
   - cmake ..
 
 script:
-  - make
+  - make runUnitTests
   - ls -la mlhist_tests
 
 
