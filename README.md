@@ -1,20 +1,20 @@
 # mlhist [![Build Status](https://travis-ci.org/JamFuller/mlhist.svg?branch=develop)](https://travis-ci.org/JamFuller/mlhist)
 
-MarkLogic history metrics.
+Generate graphs and integrate data with commandline interface to MarkLogic history metrics.
 
-## quickstart
+## For the impatient
 
-To start using mlhist quickly:
+To get quickly started:
 
-1. Download latest [release](https://github.com/JamFuller/mlhist/releases)
+1. Download latest [release](https://github.com/JamFuller/mlhist/releases) or [build yourself](https://github.com/JamFuller/mlhist#Build-test--install).
 
-2. Create ~.mlhist 
+2. Create ~/.mlhist 
 
 ```
 touch ~/.mlhist
 ```
 
-3. in ~/.mlhist, supply MarkLogic connection details
+3. edit ~/.mlhist, supplying your MarkLogic environment connection details
 
 ```
 host=localhost
@@ -29,27 +29,15 @@ pass=admin
 mlhist
 ```
 
-## usage
+5. learn more by viewing [examples](https://github.com/JamFuller/mlhist#examples)
 
-To get all options for running mlhist 
 
+## Examples
+
+get help 
 ```
 mlhist -h
 ```
-
-mlhist resources/resource [options] - get MarkLogic history metrics
-    -f    : format (xml|json)
-    -p    : period (raw|hour|day)
-    -s    : start date (ex. 2015-03-21T17:38:00)
-    -e    : end date (ex. 2015-03-22T17:58:00)
-    -m    : meter(s) (resource specific)
-    -r    : resource (databases|forests|servers|hosts)
-    -o    : output (graph)
-    -g    : gnuplot script
-    -v    : verbose (show http call)
-    -q    : quiet (suppress banner)
-
-## examples
 
 Get all metrics
 ```
@@ -81,14 +69,14 @@ Get specific metric
 mlhist
 ```
 
-list metrics
+Find metrics
 ```
+mlhist 
 ```
 
+## Build, test, & install
 
-## build, test, & install
-
-You will need [cmake v3.2.2](https://cmake.org/) or above (I know, I know ... times change).
+To build you will need to ensure [cmake v3.2.2](https://cmake.org/) or above is installed (I know, I know ... times do change).
 
 Using either [develop](https://github.com/JamFuller/mlhist/tree/develop) or [master](https://github.com/JamFuller/mlhist/tree/master) branch
 
@@ -97,11 +85,19 @@ cmake && make && make test
 
 ```
 
-all tests should pass and mlhist/mlhist binary should be built.
+All tests should pass and mlhist/mlhist binary should have been built.
 
-To install 
+To install: 
 
 ```
 make install
 
 ```
+
+## Issues, feature requests & PR's
+
+[File bug reports](https://github.com/jamfuller/mlhist/labels/Bug), [feature requests](https://github.com/jamfuller/mlhist/labels/enhancement), and [pull requests](https://github.com/jamfuller/mlhist/pulls) through GitHub. 
+
+### License
+
+[Apache License v2.0](LICENSE)
