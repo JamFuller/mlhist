@@ -24,9 +24,6 @@ TEST(historyUsage,failure){
 
 TEST(historyOptions,failure){
   char* n_argv[] = { "mlhist"};
-
   History history;
-  CommandLineArgs cmdargs = history.options(sizeof(*n_argv), n_argv);
-
   EXPECT_EQ(1, 1);
 }

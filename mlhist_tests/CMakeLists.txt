@@ -13,7 +13,7 @@ include_directories(${gtest_SOURCE_DIR}/include ${gtest_SOURCE_DIR})
 
 set(UNIT_TESTS runUnitTests)
 
-add_executable(${UNIT_TESTS} test1.cpp)
+add_executable(${UNIT_TESTS} test_history.cpp)
 
 # standard linking to gtest stuff
 target_link_libraries(${UNIT_TESTS} gtest gtest_main pthread curl)
