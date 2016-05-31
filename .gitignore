@@ -40,3 +40,7 @@ mlhist_tests/Testing/
 
 Makefile
 *.cmake
+
+install_manifest.txt
+mlhist/mlhist
+mlhist_tests/runUnitTests

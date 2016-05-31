@@ -33,6 +33,5 @@ script:
   - make runUnitTests
   - make test
 
-
 notifications:
   email: false
