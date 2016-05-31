@@ -46,7 +46,7 @@ matrix:
 before_install:
   - if [ "${TRAVIS_OS_NAME}" = "osx" ]; then brew update; fi
   - if [ -n "${BEFORE_INSTALL}" ]; then ${BEFORE_INSTALL}; fi
-  - if [ -n "$GCC_VERSION" ]; then export CC="gcc-${GCC_VERSION}" CXX="g++-${GCC_VERSION}"; fi
+  - if [ -n "$GCC_VERSION" ]; then export CC="gcc-${GCC_VERSION}" CXX="g++-${GCC_VERSION} -stdlib=libc++""; fi
   - if [ -n "$CLANG_VERSION" ]; then export CC="clang-${CLANG_VERSION}" CXX="clang++-${CLANG_VERSION}" CXXFLAGS="-stdlib=libc++"; fi
 
 install:
