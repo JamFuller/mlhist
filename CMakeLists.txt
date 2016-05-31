@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.5)
+cmake_minimum_required(VERSION 3.2.2)
 
 # TODO(jim.fuller@webcomposite.com): add travis builds to generate releases for linux/osx/windows.
 
