@@ -53,10 +53,10 @@ install:
   - mkdir build
   - cd build
   - cmake ..
-  - make
+  - make all
 
 script:
-  - ctest -VV
+  - runAllTests
 
 notifications:
   email: false
