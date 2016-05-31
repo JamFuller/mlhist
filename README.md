@@ -4,7 +4,7 @@ MarkLogic history metrics.
 
 ## quickstart
 
-1. Download latest https://github.com/JamFuller/mlhist/releases#release
+1. Download latest [release](https://github.com/JamFuller/mlhist/releases)
 
 2. create ~.mlhist 
 
@@ -31,7 +31,7 @@ mlhist
 
 ## build, test, & install
 
-Using either https://github.com/JamFuller/mlhist/tree/develop#develop or https://github.com/JamFuller/mlhist/tree/master#master branch
+Using either [develop](https://github.com/JamFuller/mlhist/tree/develop) or [master](https://github.com/JamFuller/mlhist/tree/master) branch
 
 ```
 cmake && make && make test
