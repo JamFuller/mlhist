@@ -31,7 +31,7 @@ before_script:
 
 script:
   - make runUnitTests
-  - mlhist_tests/runUnitTests
+  - make test
 
 
 notifications:
