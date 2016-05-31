@@ -4,15 +4,17 @@ MarkLogic history metrics.
 
 ## quickstart
 
+To start using mlhist quickly:
+
 1. Download latest [release](https://github.com/JamFuller/mlhist/releases)
 
-2. create ~.mlhist 
+2. Create ~.mlhist 
 
 ```
 touch ~/.mlhist
 ```
 
-provide MarkLogic connection details
+3. in ~/.mlhist, supply MarkLogic connection details
 
 ```
 host=localhost
@@ -28,6 +30,25 @@ mlhist
 ```
 
 ## usage
+
+To get all options for running mlhist 
+
+```
+mlhist -h
+```
+
+mlhist resources/resource [options] - get MarkLogic history metrics
+    -f    : format (xml|json)
+    -p    : period (raw|hour|day)
+    -s    : start date (ex. 2015-03-21T17:38:00)
+    -e    : end date (ex. 2015-03-22T17:58:00)
+    -m    : meter(s) (resource specific)
+    -r    : resource (databases|forests|servers|hosts)
+    -o    : output (graph)
+    -g    : gnuplot script
+    -v    : verbose (show http call)
+    -q    : quiet (suppress banner)
+
 
 ## build, test, & install
 
