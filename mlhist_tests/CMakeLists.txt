@@ -7,8 +7,6 @@ endif (APPLE)
 
 add_subdirectory(lib/googletest-master)
 
-#enable_testing()
-
 include_directories(
         ${gtest_SOURCE_DIR}/include
         ${gtest_SOURCE_DIR}
