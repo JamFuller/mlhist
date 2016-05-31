@@ -18,6 +18,3 @@ add_executable(${UNIT_TESTS} test_history.cpp)
 
 # standard linking to gtest stuff
 target_link_libraries(${UNIT_TESTS} gtest gmock gtest_main pthread curl)
-
-# This is so you can do 'make test' to see all your tests run, instead of manually running the executable runUnitTests to see those specific tests.
-add_test(NAME mlUnitTests COMMAND runUnitTests)

@@ -8,3 +8,6 @@ include_directories(mlhist)
 add_subdirectory(mlhist)
 
 add_subdirectory(mlhist_tests)
+
+enable_testing ()
+add_test (NAME test COMMAND runUnitTests)
