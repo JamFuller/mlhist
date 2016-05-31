@@ -88,13 +88,18 @@ list metrics
 
 ## build, test, & install
 
+You will need [cmake v3.2.2](https://cmake.org/) or above (I know, I know ... times change).
+
 Using either [develop](https://github.com/JamFuller/mlhist/tree/develop) or [master](https://github.com/JamFuller/mlhist/tree/master) branch
 
 ```
 cmake && make && make test
 
 ```
-to install 
+
+all tests should pass and mlhist/mlhist binary should be built.
+
+To install 
 
 ```
 make install
