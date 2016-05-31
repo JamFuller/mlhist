@@ -11,5 +11,5 @@ before_install:
   - sudo apt-get install -y libopencv-dev
   - sudo apt-get install cmake
 script:
-  - cmake && make
+  - cmake . && make
   - ./runUnitTests
