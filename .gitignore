@@ -32,3 +32,8 @@
 .idea/
 .idea_modules/
 *.iml
+
+CMakeCache.txt
+CMakeFiles/
+Testing/
+mlhist_tests/Testing/
