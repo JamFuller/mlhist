@@ -31,7 +31,8 @@ before_script:
 
 script:
   - make
-  - runUnitTests
+  - ls
+  - ./runUnitTests
 
 notifications:
   email: false
