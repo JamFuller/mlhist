@@ -54,7 +54,6 @@ install:
   - cd build
   - cmake ..
   - make all
-  - make test
 
 notifications:
   email: false
