@@ -1,2 +1,1 @@
-# mlhist
-
+# mlhist [![Build Status](https://travis-ci.org/JamFuller/mlhist.svg?branch=develop)](https://travis-ci.org/JamFuller/mlhist)
