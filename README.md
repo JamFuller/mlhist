@@ -6,15 +6,16 @@ Generate graphs and integrate data with commandline interface to MarkLogic histo
 
 To get quickly started:
 
-1. Download latest [release](https://github.com/JamFuller/mlhist/releases) or [build yourself](https://github.com/JamFuller/mlhist#Build-test--install).
+* Download latest [release](https://github.com/JamFuller/mlhist/releases) or [build yourself](https://github.com/JamFuller/mlhist#build-test--install).
 
-2. Create ~/.mlhist 
+* Create ~/.mlhist 
 
 ```
 touch ~/.mlhist
 ```
 
-3. edit ~/.mlhist, supplying your MarkLogic environment connection details
+
+* edit ~/.mlhist, supplying your MarkLogic environment connection details
 
 ```
 host=localhost
@@ -23,13 +24,13 @@ user=admin
 pass=admin
 ```
 
-4. run mlhist 
+* run mlhist 
 
 ```
 mlhist
 ```
 
-5. learn more by viewing [examples](https://github.com/JamFuller/mlhist#examples)
+* learn more by viewing [examples](https://github.com/JamFuller/mlhist#examples)
 
 
 ## Examples
