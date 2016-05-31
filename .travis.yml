@@ -27,8 +27,7 @@ before_install:
 install:
   - mkdir build
   - cd build
-  - cmake ..
-  - make
+  - cmake .. && make
 
 notifications:
   email: false
