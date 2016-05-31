@@ -86,8 +86,8 @@
       <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="75">
+              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -491,7 +491,14 @@
       <option name="project" value="LOCAL" />
       <updated>1464693677993</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add install travis">
+      <created>1464693715955</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1464693715955</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -574,7 +581,8 @@
     <MESSAGE value="test" />
     <MESSAGE value="add cpp lang" />
     <MESSAGE value="add better travis image" />
-    <option name="LAST_COMMIT_MESSAGE" value="add better travis image" />
+    <MESSAGE value="add install travis" />
+    <option name="LAST_COMMIT_MESSAGE" value="add install travis" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -827,8 +835,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="75">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
           <folding />
         </state>
       </provider>
