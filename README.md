@@ -23,7 +23,7 @@ user=admin
 pass=admin
 ```
 
-3. run mlhist 
+4. run mlhist 
 
 ```
 mlhist
@@ -48,6 +48,42 @@ mlhist resources/resource [options] - get MarkLogic history metrics
     -g    : gnuplot script
     -v    : verbose (show http call)
     -q    : quiet (suppress banner)
+
+## examples
+
+Get all metrics
+```
+mlhist
+```
+
+Get all metrics data
+```
+mlhist
+```
+
+Get all forest metrics
+```
+mlhist forests
+```
+
+Get all metrics for range of time
+```
+mlhist
+```
+
+Get all metrics for a range of time with different period
+```
+mlhist
+```
+
+Get specific metric
+```
+mlhist
+```
+
+list metrics
+```
+```
 
 
 ## build, test, & install
