@@ -26,3 +26,9 @@
 *.exe
 *.out
 *.app
+
+.DS_Store*
+# IntelliJ
+.idea/
+.idea_modules/
+*.iml
