@@ -24,5 +24,12 @@ matrix:
 before_install:
   - if [ -n "$CLANG_VERSION" ]; then export CC="clang-${CLANG_VERSION}" CXX="clang++-${CLANG_VERSION}" CXXFLAGS="-stdlib=libc++"; fi
 
+before_script:
+  - mkdir build
+  - cd build
+  - cmake ..
+
+script: make
+
 notifications:
   email: false
